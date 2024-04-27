@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/JunaidNayeem",
   linkedin: "https://www.linkedin.com/in/junaid-nayeem-51041a16a/",
   gmail: "junaid852100@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/profile.php?id=100012677851314",
   instagram: "https://www.instagram.com/dark_night_dev/",
   // medium: "https://medium.com/@saadpasta",
@@ -60,7 +60,6 @@ const skillsSection = {
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
-
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
@@ -86,12 +85,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "npm",
@@ -106,44 +105,51 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "drupal",
+      fontAwesomeClassname: "fab fa-drupal"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: false, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Sri Krishna Institute of Technology",
+      logo: require("./assets/images/skitlogo.jpg"),
+      subHeader: "Bachelor's of Engineering(Computer Science)",
+      duration: "August 2018 - July 2022",
+      desc: "Completed my UG degree from a well known university known as Vesveshvariya Technological University",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Had an impacable record over my period of graduation, and got change to work over many projects which made me strong in my skill set theoritically as well as practically.",
+        "I've taken part in numerous competitions, spanning areas such as hackathons, web development, robotics, and entrepreneurship, consistently achieving a position within the top three contenders."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "TNB College",
+      logo: require("./assets/images/tnblogo.jpg"),
+      subHeader: "Intermediate",
+      duration: "May 2016 - June 2018",
+      desc: "Ranked my self in the top students amoung my batch as most sincere and have completed my PU with 1st-division under BSEB state board",
+      descBullets: ["Had been a member of cultural society of College"]
+    },
+    {
+      schoolName: "St. Joseph's School",
+      logo: require("./assets/images/sjslogo.png"),
+      subHeader: "Matriculation",
+      duration: "February 2015 - March 2016",
+      desc: "Had a  great foundation of my education journey under the guidance and curiculam of ICSE board"
     }
   ]
 };
@@ -164,6 +170,18 @@ const techStack = {
     {
       Stack: "Programming",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Logical Reasoning",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Data Structure",
+      progressPercentage: "77%"
+    },
+    {
+      Stack: "Algorithm",
+      progressPercentage: "55%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
