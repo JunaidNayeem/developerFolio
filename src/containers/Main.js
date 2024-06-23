@@ -19,6 +19,7 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import {Analytics} from "@vercel/analytics/react";
 import "./Main.scss";
 
 const Main = () => {
@@ -66,6 +67,7 @@ const Main = () => {
             <Profile />
             <Footer />
             <ScrollToTopButton />
+            <Analytics />
           </>
         )}
       </StyleProvider>
